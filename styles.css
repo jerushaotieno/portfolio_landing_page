@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding: 1%;
+    padding: 10px;
 }
 .navbar{
     display: flex;
@@ -11,11 +11,7 @@
 .section_one{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-}
-
-.section_two{
-    padding: 1%;
+    justify-content: space-between;
 }
 
 #about_me{
@@ -45,12 +41,6 @@
     justify-content: space-between;
 }
 
-.learning_and_additional_skills{
-    display: flex;
-    flex-direction: flex-start;
-    justify-content: space;
-}
-
 .still_learning{
     display: flex;
     flex-direction: row;
@@ -59,6 +49,33 @@
 
 .bootstrap{
     padding-left: 200px;
-    padding-right: 230px;
+    padding-right: 200px;
 }
 
+.learning_and_additional_skills{
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: space;
+}
+
+.burger_palace{
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: space-around;
+}
+
+#burger_palace{
+    padding-top: 10%;
+    width: 45%;
+}
+
+.burger_palace{
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: space-around;
+}
+
+#burger_palace{
+    padding-top: 10%;
+    width: 45%;
+}
