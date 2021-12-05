@@ -111,10 +111,15 @@
 }
 
 .section_six{
-    font-size: ;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer{
     text-align: center;
     font-size: small;
+    background-color: navy;
+    color: white;
 }
