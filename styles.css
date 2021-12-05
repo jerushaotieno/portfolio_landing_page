@@ -43,3 +43,15 @@
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.learning_and_additional_skills{
+    display: flex;
+}
+
+.still_learning{
+    display: flex;
+    flex-direction: row;
+    justify-content: space;
+    padding-left: 2%;
+}
+
