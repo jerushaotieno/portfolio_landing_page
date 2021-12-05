@@ -18,6 +18,17 @@
     height: 500px;
 }
 
+#introduction{
+    align-self: center;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+#introduction_image{
+    align-self: center;
+}
+
 .section_two{
     background-color: navy;
     color: white;
