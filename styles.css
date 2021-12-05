@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 5px;
+}
 .navbar{
     display: flex;
     justify-content: right;
@@ -14,7 +18,7 @@
 }
 
 #about_me{
-    justify-content: center;
+    justify: center;
     font-size: 30px;
     font-style: italic;
 }
@@ -31,5 +35,11 @@
 
 .about_me_paragraphs{
     padding-left: 2%;
+    line-height: 25px;
 }
 
+.currently_using{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
