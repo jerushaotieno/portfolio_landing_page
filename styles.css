@@ -69,13 +69,13 @@
     width: 45%;
 }
 
-.burger_palace{
+.letuce_eat{
     display: flex;
     flex-direction: flex-start;
     justify-content: space-around;
 }
 
-#burger_palace{
+#letuce_eat{
     padding-top: 10%;
     width: 45%;
 }
