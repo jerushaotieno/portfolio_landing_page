@@ -12,8 +12,10 @@
 
 .section_one{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: flex-start;
+    justify-content: space-around;
+    align-content: center;
+    height: 500px;
 }
 
 .section_two{
