@@ -16,6 +16,11 @@
     justify-content: space-between;
 }
 
+.section_two{
+    background-color: navy;
+    color: white;
+}
+
 #about_me{
     text-align: center;
     font-size: 30px;
@@ -58,6 +63,10 @@
 .bootstrap{
     padding-left: 200px;
     padding-right: 200px;
+}
+
+.section_four{
+    ;
 }
 
 #project_portfolio{
@@ -115,6 +124,11 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+#sitemap{
+    list-style: none;
+    font-size: small;
 }
 
 .footer{
