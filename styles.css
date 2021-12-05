@@ -15,7 +15,7 @@
     flex-direction: flex-start;
     justify-content: space-around;
     align-content: center;
-    height: 500px;
+    height: 600px;
 }
 
 #introduction{
@@ -23,6 +23,7 @@
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
+    line-height: 15px;
 }
 
 #introduction_image{
@@ -32,12 +33,15 @@
 .section_two{
     background-color: navy;
     color: white;
+    padding-bottom: 5%;
 }
 
 #about_me{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-style: italic;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
 .about_me{
@@ -55,10 +59,16 @@
     line-height: 25px;
 }
 
+.section_three{
+    padding: 3% 6%;
+}
+
 #skills{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-style: italic;
+    padding-bottom: 3%;
+    padding-top: 5%;
 }
 
 .currently_using{
@@ -74,18 +84,19 @@
 }
 
 .bootstrap{
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .section_four{
     background-color: navy;
     color: white;
+    padding: 3% 4%;
 }
 
 #project_portfolio{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-style: italic;
 }
 
@@ -123,14 +134,19 @@
 
 #get_in_touch{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-style: italic;
+    padding-bottom: 3%;
 }
 
 .section_five{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 600px;
+    padding-bottom: 3%;
+    padding-top: 5%;
+    line-height: 30px;
 }
 
 .section_six{
