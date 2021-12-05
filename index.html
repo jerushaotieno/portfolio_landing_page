@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Portfolio Landing Page</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
 
-    <div">
-        <a href="" style="color: black;"><b>Home</b></a> 
-        <a href="/about/" style="color: black"><b>About</b></a> 
-        <a href="/skills/" style="color: black"><b>Skills</b></a>
-        <a href="/project portfolio/" style="color: black"><b>Project Portfolio</b></a> 
-        <a href="/get in touch/" style="color: black"><b>Get in Touch</b></a> 
+    <div class="navbar">
+        <div class="container">
+            <a href="" style="color: black;"><b>Home</b></a> 
+            <a href="/about/" style="color: black"><b>About</b></a> 
+            <a href="/skills/" style="color: black"><b>Skills</b></a>
+            <a href="/project portfolio/" style="color: black"><b>Project Portfolio</b></a> 
+            <a href="/get in touch/" style="color: black"><b>Get in Touch</b></a> 
+        </div>
     </div>
 
-    <div class="section_one">
-        <div>
+    <div class="section-one">
+        <div class="introduction">
             <h1>
                 JERUSHA OTIENO
             </h1>
@@ -35,11 +35,13 @@
             </div>
         </div>
 
-        <img src="img/laptop-1839876__340.webp" alt="laptop_phone_and_notebook">
+        <div class="introduction_image">
+            <img src="img/laptop-1839876__340.webp" alt="laptop_phone_and_notebook">
+        </div>
     </div>
 
     <div class="section_two">
-        <h2>
+        <h2 id="about.me">
             ABOUT ME
         </h2>
         
@@ -68,7 +70,7 @@
         </div>
     </div>
 
-    <div section_three>
+    <div class="container">
         <h2>
             SKILLS
         </h2>
@@ -139,7 +141,7 @@
         </div>
     </div>
 
-    <div section_four>
+    <div class="container">
         <h2>
             PROJECT PORTFOLIO
         </h2>
@@ -184,7 +186,7 @@
         </p>
     </div>
 
-    <div section_five>
+    <div class="container">
         <h2>
             GET IN TOUCH
         </h2>
@@ -220,7 +222,7 @@
         </form>
     </div>
 
-    <div section_six>
+    <div class="container">
         <div>
             <h6>
                 About Me
