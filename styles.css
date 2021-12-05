@@ -1,9 +1,10 @@
 * {
     margin: 0;
-    padding: 5px;
+    padding: 1%;
 }
 .navbar{
     display: flex;
+    flex-direction: row;
     justify-content: right;
 }
 
@@ -40,18 +41,24 @@
 
 .currently_using{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: flex-start;
+    justify-content: space-between;
 }
 
 .learning_and_additional_skills{
     display: flex;
+    flex-direction: flex-start;
+    justify-content: space;
 }
 
 .still_learning{
     display: flex;
     flex-direction: row;
     justify-content: space;
-    padding-left: 2%;
+}
+
+.bootstrap{
+    padding-left: 200px;
+    padding-right: 230px;
 }
 
