@@ -11,6 +11,9 @@ The portfolio landing page contains information about my previous education, wor
 * It is mandatory that you clone the github repository.
 * Use Go Live on VS Code.
 
+## Link to Live Site on GitHub Pages
+https://jerushaotieno.github.io/portfolio_landing_page/ 
+
 ## Known Bugs
 No bugs have been identified.
 
