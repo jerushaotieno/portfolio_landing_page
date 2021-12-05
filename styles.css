@@ -14,7 +14,9 @@
 }
 
 #about_me{
-    align-content: center;
+    justify-content: center;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .about_me{
@@ -27,6 +29,7 @@
     display: flex;
 }
 
-.about_me_content{
+.about_me_paragraphs{
     padding-left: 2%;
 }
+
