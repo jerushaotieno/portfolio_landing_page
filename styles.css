@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: row;
     justify-content: right;
+    background-color: navy;
+    color: white;
 }
 
 .section_one{
@@ -15,7 +17,7 @@
 }
 
 #about_me{
-    justify: center;
+    text-align: center;
     font-size: 30px;
     font-style: italic;
 }
@@ -35,6 +37,12 @@
     line-height: 25px;
 }
 
+#skills{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
 .currently_using{
     display: flex;
     flex-direction: flex-start;
@@ -50,6 +58,12 @@
 .bootstrap{
     padding-left: 200px;
     padding-right: 200px;
+}
+
+#project_portfolio{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .learning_and_additional_skills{
@@ -78,4 +92,29 @@
 #letuce_eat{
     padding-top: 10%;
     width: 45%;
+}
+
+#many_more{
+    text-align: center;
+}
+
+#get_in_touch{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.section_five{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_six{
+    font-size: ;
+}
+
+.footer{
+    text-align: center;
+    font-size: small;
 }
