@@ -12,7 +12,10 @@ The portfolio landing page contains information about my previous education, wor
 * Use Go Live on VS Code.
 
 ## Link to Live Site on GitHub Pages
-https://jerushaotieno.github.io/portfolio_landing_page/ 
+https://jerushaotieno.github.io/portfolio_landing_page/
+
+## Link to Project Figma Design
+https://www.figma.com/file/ykIcutgLQrDHk3AWLQLkhc/Jerusha-Otieno-Portfolio-Design?node-id=0%3A1
 
 ## Known Bugs
 No bugs have been identified.
