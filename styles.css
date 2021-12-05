@@ -117,6 +117,10 @@
     width: 45%;
 }
 
+#italic{
+    font-style: italic;
+}
+
 .letuce_eat{
     display: flex;
     flex-direction: flex-start;
@@ -150,7 +154,7 @@
 }
 
 .section_six{
-    font-size: 15px;
+    font-size: smaller;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -164,9 +168,13 @@
     text-align: left;
 }
 
+.contacts{
+    list-style: none;
+}
+
 .footer{
     text-align: center;
-    font-size: 15px;
+    font-size: x-small;
     background-color: navy;
     color: white;
 }
